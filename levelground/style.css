@@ -1,0 +1,203 @@
+/* rgb(102, 118, 138) boxes in flex color
+rgb(14, 23, 35) font color */
+* {
+    font-family: 'Fjalla One', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    margin: -1px;
+
+}
+
+li {
+    color: white;
+    list-style: none;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* section 1 */
+.nav {
+    display: inline;
+}
+
+.sec1 {
+    background-color: rgb(102, 118, 138);
+    width: 100%;
+}
+
+img {
+    width: 5%;
+}
+
+
+.wrapper {
+    text-align: left;
+    padding-left: 1%;
+    color: white;
+}
+
+.donatebutton {
+    float: right;
+    background-color: white;
+    padding: 1% 3%;
+    border-radius: 1%;
+}
+
+.donate {
+    color: rgb(102, 118, 138)
+}
+
+/* section 2 */
+.sec2 {
+    background-color: rgb(102, 118, 138);
+    color: white;
+    padding: 10%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+/* section 3 */
+.sec3 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10% 22%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* section 4 */
+.sec4 {
+    background-color: rgb(219, 223, 226);
+    text-align: center;
+}
+
+.flex-item p {
+    padding: 0% 15%
+}
+
+.flex-item1 {
+    background-color: rgb(219, 223, 226);
+    width: 50%;
+    float: left;
+
+}
+
+.flex-item1 img {
+    margin: 8% 30%;
+}
+
+.flex-item1 span {
+    font-weight: 600;
+}
+
+.flex-item2 {
+    background-color: rgb(219, 223, 226);
+    width: 50%;
+    float: left;
+}
+
+.flex-item2 img {
+    margin: 8% 30%;
+}
+
+.flex-item2 span {
+    font-weight: 600;
+}
+
+.btn4 {
+    background-color: rgb(219, 223, 226);
+    margin-bottom: 15%;
+    padding: 3% 5%;
+
+}
+
+.btn4:focus {
+    outline: none;
+}
+
+
+.imagebox {
+    width: 40%;
+}
+
+
+/* section 5 */
+.sec5 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.sec5 h3 {
+    margin-top: 52%;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.sec5 p {
+    padding: 0% 30%;
+}
+
+.vol {
+    padding: 1% 4%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    background-color: white;
+}
+
+/* section 6 */
+.sec6 {
+    background-color: rgb(22, 31, 42);
+}
+
+@media screen and (min-width: 0) {
+    .flex-item1 {
+        width: 100%;
+    }
+
+    .flex-item2 {
+        width: 100%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .ultrawrapper {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ultrawrapper {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        display: block;
+    }
+
+    .flex-item1 {
+        width: 50%;
+    }
+
+    .flex-item2 {
+        width: 50%;
+    }
+}

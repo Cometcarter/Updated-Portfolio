@@ -1,0 +1,261 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 100%;
+    /* border: 2px solid; */
+    display: inline-block;
+
+}
+
+.border1 {
+    /* border: 1px solid tomato; */
+    width: 25%;
+    display: inline-block;
+}
+
+.tclogo {
+    width: 80%;
+    float: left;
+}
+
+.border2 {
+    /* border: 1px solid blue; */
+    width: 74%;
+    float: right;
+}
+
+/* .headertop {
+    border: 1px solid black;
+
+}
+
+.headerbottom {
+    border: 1px solid purple;
+} */
+
+/* got a tip (next to tclogo) */
+
+.tip {
+    /* border: 2px solid red; */
+    width: 50%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.tip a {
+    font-weight: bold;
+    color: green;
+}
+
+/* nav bar with dropdown */
+
+.list {
+    /* border: 2px solid blue; */
+    list-style: none;
+    float: left;
+    font-size: 1.5rem;
+}
+
+.navlist {
+    width: 58%;
+    float: left;
+    text-decoration: none;
+    padding: 0%;
+}
+
+
+/* follow us section */
+
+.followus {
+    /* border: 2px solid darkorange; */
+    width: 48%;
+    float: right;
+}
+
+.followus a {
+    float: right;
+    width: 30px;
+    text-align: center;
+}
+
+.followus span {
+    margin-left: 6%;
+    color: grey;
+}
+
+.logo {
+    /* border: 1px solid black; */
+    background: rgb(236, 236, 236);
+}
+
+
+/* message us section */
+
+.messagesearch {
+    /* border: 1px solid blue; */
+    width: 41%;
+    float: right;
+}
+
+.message {
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgb(62, 67, 62);
+    color: white;
+    float: left;
+}
+
+h2 {
+    background: rgb(15, 74, 0);
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2::after {
+    clear: both;
+}
+
+input::placeholder {
+    color: rgb(0, 153, 0);
+}
+
+#crunchyreport {
+    width: 30%;
+}
+
+main {
+    width: 68%;
+    display: inline-block;
+}
+
+.video {
+    width: 58%;
+    float: left;
+    /* border: 1px solid gold; */
+}
+
+.middleside {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 40%;
+}
+
+.sidebar {
+    /* border: 1px solid purple; */
+    width: 28%;
+    display: inline-block;
+}
+
+/* .tip2 {
+    border: 1px solid tomato; 
+
+}
+
+.newsletter {
+     border: 1px solid green; 
+
+} */
+
+#emailbar {
+    color: lightgray;
+}
+
+.menu {
+    display: none;
+    float: right;
+    margin: 10px;
+}
+
+@media screen and (min-width:0) {
+
+    html,
+    body {
+        min-width: fit-content;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .border2 {
+        display: none;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .middleside {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    footer {
+        max-width: 63%;
+    }
+
+    .video img {
+        width: 100%
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video {
+        width: 58%;
+    }
+
+    .middleside {
+        width: 38%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    .border2 {
+        display: inline-block;
+    }
+
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    height: 500px;
+    background-color: rgb(233, 188, 131);
+}
+
+/* list section */
+
+.mainone {
+    width: 50%;
+    margin: 10% 5%;
+    background-color: rgba(181, 146, 102, 50%);
+    border-radius: 3%;
+}
+
+li {
+    margin-left: 10%;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+/* right section */
+
+.maintwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 10% 5%;
+    background-color: rgba(181, 146, 102, 50%);
+    border-radius: 3%;
+}
+
+.box {
+    align-items: center;
+}
